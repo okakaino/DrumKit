@@ -1,0 +1,7 @@
+sudo dfu-programmer atmega16u2 erase
+sudo dfu-programmer atmega16u2 flash arduino_midi.hex
+sudo dfu-programmer atmega16u2 reset
+
+sudo dfu-programmer atmega16u2 erase
+sudo dfu-programmer atmega16u2 flash /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/firmwares/atmegaxxu2/arduino-usbserial/Arduino-usbserial-atmega16u2-Uno-Rev3.hex
+sudo dfu-programmer atmega16u2 reset
